@@ -1,0 +1,21 @@
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Unsaved Changes'
+      'command': 'unsaved-changes:show'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Unsaved Changes'
+      'submenu': [
+        {
+          'label': 'Show'
+          'command': 'unsaved-changes:show'
+        }
+      ]
+    ]
+  }
+]

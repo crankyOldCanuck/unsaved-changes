@@ -1,0 +1,29 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.unsaved-changes-context {
+    font-size: larger;
+    font-family: Consolas, Monaco, 'Courier New', Courier, monospace;
+    white-space: pre;
+}
+
+.unsaved-changes-add {
+    background-color: green;
+    color: white;
+    .unsaved-changes-context;
+}
+
+.unsaved-changes-remove {
+    background-color: red;
+    color: white;
+    .unsaved-changes-context;
+}
+
+.unsaved-changes-separator {
+    background-color: yellow;
+    margin: 1em 0;
+    .unsaved-changes-context;
+}

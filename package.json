@@ -1,0 +1,20 @@
+{
+  "name": "unsaved-changes",
+  "main": "./lib/unsaved-changes",
+  "version": "0.0.0",
+  "description": "Show unsaved changes in active editor",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "unsaved-changes:show"
+  },
+  "repository": "https://github.com/Ge-Bra/unsaved-changes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "diff": "^1.4.0",
+    "atom-message-panel": "^1.2.4"
+  }
+}
